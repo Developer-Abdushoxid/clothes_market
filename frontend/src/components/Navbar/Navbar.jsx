@@ -1,6 +1,6 @@
 import React from 'react'
 import { MdSearch } from "react-icons/md";
-import { FaShoppingCart } from "react-icons/fa";
+import { FaCaretDown, FaShoppingCart } from "react-icons/fa";
 import DarkMode from './DarkMode';
 
 
@@ -50,8 +50,19 @@ const Navbar = () => {
                                          {data.name}
                                          </a>
                                         </li>
-                                    ))
-                                }
+                                    ))};
+                                    {/* dropdown */}
+                                    <li className='relative cursor-pointer group'>
+                                        <a href="#"
+                                        className='flex items-center gap-[2px] font-semibold text-gray-500
+                                        dark:hover:text-white py-2'>
+                                            Quicks Links
+                                        </a>
+                                        <span>
+                                      <FaCaretDown
+                                      className='group-hover:rotate-180 duration-300'/>
+                                        </span>
+                                    </li>
                             </ul>
                         </div>
                     </div>
