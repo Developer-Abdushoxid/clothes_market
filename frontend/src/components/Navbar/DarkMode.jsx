@@ -17,12 +17,12 @@ const DarkMode = () => {
       element.classList.add('dark');
       element.classList.add('dark');
     }else {
-      element.classList.add('light');
-      element.classList.add('dark');
+      element.classList.remove('light');
+      element.classList.remove('dark');
     }
   });
   return (
-    <div>
+    <div className='relative'>
      <img
   onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
   src={LightButton}
