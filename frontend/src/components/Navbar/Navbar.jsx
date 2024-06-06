@@ -1,4 +1,3 @@
-import React from 'react'
 import { MdSearch } from "react-icons/md";
 import { FaCaretDown, FaShoppingCart } from "react-icons/fa";
 import DarkMode from './DarkMode';
@@ -72,7 +71,7 @@ const Navbar = () => {
                                     {/* dropdown */}
                                     <li className='relative cursor-pointer group'>
                                         <a href="#"
-                                        className='flex items-center gap-[2px] font-semibold text-gray-500
+                                        className='flex items-center mt-5 gap-[2px] font-semibold text-gray-500
                                         dark:hover:text-white py-2'>
                                         Quicks Links
                                         </a>
@@ -86,7 +85,7 @@ const Navbar = () => {
                                             <ul className='space-y-2'>
                                                 {
                                                     DropdownLinks.map((data) => (
-                                                        <li>
+                                                        <li key={data.id}>
                                                          <a 
                                                          className='text-gray-500 dark:hover:text-white duration-200 inline-block
                                                          w-full p-2 hover:bg-primary/20 rounded-md font-semibold'

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Button from './../Shared/Button';
 import Image1 from '../../assets/category/gaming.png'
 import Image2 from '../../assets/category/vr.png'
