@@ -5,6 +5,7 @@ import Category from './components/Category/Category'
 import Category2 from './components/Category/Category2';
 import Services from './components/Services/Services';
 import Banner from './components/Banner/Banner';
+import Banner2 from './components/Banner/Banner2';
 import Products from './components/Products/Products';
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Services />
       <Banner/>
       <Products />
+      <Banner2 />
 
     </div>
   )

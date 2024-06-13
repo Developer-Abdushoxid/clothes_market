@@ -1,4 +1,5 @@
-import { bannerData } from "../../constants/data"
+import { bannerData } from "../../constants/data";
+
 
 
 const Banner = () => {
@@ -41,4 +42,5 @@ const Banner = () => {
   )
 }
 
-export default Banner
+
+export default Banner;
